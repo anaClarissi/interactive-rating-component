@@ -57,6 +57,34 @@ body {
     background-image: radial-gradient(circle at top, var(--grey-02) 0%, #171E28 70%);
 }
 
+.how-did {
+    display: none;
+}
+
+.selected {
+    display: flex;
+    align-items: center;
+}
+
+.selected h2 {
+    padding: 7px 20px 5px 20px;
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--orange-01);
+    border-radius: 20px;
+    background-color: var(--grey-02);
+}
+
+.selected h3 {
+    font-size: 1.5em;
+    color: var(--white);
+}
+
+.selected p {
+    text-align: center;
+    line-height: 1.5;
+}
+
 .card-star {
     display: flex;
     justify-content: center;
@@ -111,8 +139,4 @@ body {
     color: #171E28;
     background-color: var(--orange-01);
     cursor: pointer;
-}
-
-.selected {
-    display: none;
 }

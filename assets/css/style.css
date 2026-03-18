@@ -58,11 +58,11 @@ body {
 }
 
 .how-did {
-    display: none;
+    display: flex;
 }
 
 .selected {
-    display: flex;
+    display: none;
     align-items: center;
 }
 
@@ -125,6 +125,17 @@ body {
     font-weight: 600;
     color: var(--grey-01);
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.card-list li input:hover {
+    background-color: var(--orange-01);
+    color: var(--grey-02);
+}
+
+.card-list li input:focus {
+    background-color: var(--white);
+    color: var(--grey-02);
 }
 
 .card button {
@@ -139,4 +150,9 @@ body {
     color: #171E28;
     background-color: var(--orange-01);
     cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.card button:hover {
+    background-color: var(--white);
 }

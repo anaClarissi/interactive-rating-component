@@ -24,7 +24,7 @@ submitBtn.addEventListener('click', () => {
 
     const numberSelected = document.querySelector('.value-selected');
 
-    if (valueSelected != null) {
+    if (valueSelected !== null) {
         
         sectionHowDid.style.display = "none";
     
